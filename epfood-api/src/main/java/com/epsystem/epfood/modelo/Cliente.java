@@ -1,4 +1,4 @@
-package com.epsystem.epfood.di.modelo;
+package com.epsystem.epfood.modelo;
 
 public class Cliente {
 

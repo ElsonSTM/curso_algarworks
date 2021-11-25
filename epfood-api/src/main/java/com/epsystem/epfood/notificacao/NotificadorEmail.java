@@ -1,10 +1,10 @@
-package com.epsystem.epfood.di.notificacao;
+package com.epsystem.epfood.notificacao;
 
 import org.springframework.stereotype.Component;
 
-import com.epsystem.epfood.di.modelo.Cliente;
+import com.epsystem.epfood.modelo.Cliente;
 
-@Component
+//@Component
 public class NotificadorEmail implements Notificador {
 	
 	@Override
