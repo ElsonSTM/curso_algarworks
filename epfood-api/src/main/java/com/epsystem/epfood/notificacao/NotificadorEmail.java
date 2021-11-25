@@ -1,12 +1,10 @@
 package com.epsystem.epfood.notificacao;
 
 import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.Qualifier;
 
 import com.epsystem.epfood.modelo.Cliente;
 
-
-@Qualifier("email")
+@TipoDoNotificador(NivelUrgencia.NORMAL)
 @Component
 public class NotificadorEmail implements Notificador {
 	
